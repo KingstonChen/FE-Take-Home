@@ -1,3 +1,5 @@
+# Welcome!
+
 Hello 👋
 We are thrilled about the possibility of you joining our team. This take-home exercise is designed as a basic evaluation to help us understand your skills and how you approach tasks. It's a great opportunity for you to showcase your abilities and for us to see how we might work together.
 Thank you for taking the time, and we look forward to speaking with you soon!
