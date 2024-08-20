@@ -1,0 +1,38 @@
+.collapsibleList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listItem {
+  border-bottom: 1px solid #ccc;
+}
+
+.listItem:last-child {
+  border-bottom: none;
+}
+
+.header {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsibleTable {
+  overflow: hidden;
+  transition-property: max-height;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.openIcon {
+  font-size: 1.2em;
+  transition: transform 0.2s;
+}
+
+.openIcon.open {
+  transform: rotate(180deg);
+}
+

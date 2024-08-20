@@ -1,0 +1,40 @@
+.flatList {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.listContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.listItem {
+  background: var(--theme-color-1);
+}
+
+.listItem:nth-child(odd) {
+  background: var(--theme-color-2);
+}
+
+.itemName {
+  display: flex;
+  gap: 10px;
+}
+
+.pagination {
+  margin: auto;
+}
+
+.addBtn {
+  font-size: 1.2em;
+  transition: transform 0.2s;
+}
+
+.addBtn:hover {
+  transform: scale(1.5);
+}

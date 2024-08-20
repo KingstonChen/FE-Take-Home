@@ -1,0 +1,56 @@
+.jar {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin-top: 10px;
+}
+
+.jarHeader {
+  height: 2em;
+  background: var(--theme-color-3);
+}
+
+.jarTr {
+  height: 2em;
+  background: var(--theme-color-2);
+}
+
+.jarTr:nth-child(odd) {
+  background: var(--theme-color-1);
+}
+
+.jarTd {
+  vertical-align: center;
+  width: 15%;
+  text-align: center;
+  font-size: 1.2em;
+  border: none;
+}
+
+.jarTh {
+  border: none;
+}
+
+.jarSummary {
+  text-align: right;
+  padding: 5px 15px;
+  border: none;
+  background: var(--theme-color-3);
+}
+
+.jarItemName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 15px;
+  border: none;
+}
+
+.iconBtn {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.iconBtn:hover {
+  transform: scale(1.5);
+}
